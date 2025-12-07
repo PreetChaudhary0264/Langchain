@@ -11,7 +11,7 @@ llm = HuggingFaceEndpoint(
 
 model = ChatHuggingFace(llm=llm)
 
-#1st prompt (detailed report)
+#1st prompt.. (detailed report)
 template1 = PromptTemplate(
     template="Write a detailed report on {topic}",
     input_variables=['topic']
