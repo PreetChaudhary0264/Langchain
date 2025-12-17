@@ -6,7 +6,7 @@ from pydantic import BaseModel,Field
 load_dotenv()
 
 model = ChatOpenAI()
-
+//oh no
 #schema
 json_schema = {
     "title":"Review",
